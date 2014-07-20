@@ -1,23 +1,26 @@
 {
-    "name"       : "tzdetect",
-    "version"    : "0.0.1",
+    "name": "tzdetect",
+    "version": "0.0.1",
     "description": "Detects timezone name by country code and offset",
-    "keywords"   : ["timezone"],
-    "homepage"   : "https://github.com/dchusovitin/node-tzdetect",
-    "licenses"   : [
+    "keywords": ["timezone"],
+    "homepage": "https://github.com/dchusovitin/node-tzdetect",
+    "licenses": [
         {
             "type": "MIT",
-            "url" : "https://raw.githubusercontent.com/dchusovitin/node-tzdetect/master/LICENSE"
+            "url": "https://raw.githubusercontent.com/dchusovitin/node-tzdetect/master/LICENSE"
         }
     ],
-    "author"     : {
-        "name" : "Dmitry Chusovitin",
+    "author": {
+        "name": "Dmitry Chusovitin",
         "email": "dchusovitin@gmail.com",
-        "url"  : "http://chusovitin.com/"
+        "url": "http://chusovitin.com/"
     },
-    "main"       : "./lib/tzdetect",
-    "repository" : {
+    "main": "./lib/tzdetect",
+    "repository": {
         "type": "git",
-        "url" : "https://github.com/dchusovitin/node-tzdetect.git"
+        "url": "https://github.com/dchusovitin/node-tzdetect.git"
+    },
+    "dependencies": {
+        "moment-timezone": "^0.1.0"
     }
 }
